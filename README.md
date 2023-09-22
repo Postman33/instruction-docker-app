@@ -29,3 +29,17 @@ docker-compose down
 ```bash
 docker-compose pull
 ```
+
+# Проверка работоспособности приложений
+## Запущены ли контейнеры
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/2dc567e9-1eee-422c-8816-938a4ea28aae)
+
+## Проверить доступность сервера(playground graphql) по 3000 порту:
+Проверялось по URL: [http://localhost:8000/](http://localhost:3000/graphql) или http://localhost:3000
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/13a16243-13ed-4306-b3bf-c7f88c492c3e)
+
+## Проверить доступность клиент-приложения на Svelte по 8000 порту
+Проверялось по URL: http://localhost:8000/
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/773a05ef-3d7e-4c55-99c2-a487f6a32347)
+
+
