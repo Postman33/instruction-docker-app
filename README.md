@@ -1,4 +1,4 @@
-# instruction-docker-app
+# Инструкция по запуске приложений SvelteUI, Nest.js, PostgreSQL
 
 
 # Шаг 1: Файл должен быть сохранен как docker-compose.yml в любой директории на вашем компьютере.
