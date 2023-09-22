@@ -38,6 +38,10 @@ docker-compose pull
 Проверялось по URL: http://localhost:3000/graphql или http://localhost:3000
 ![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/13a16243-13ed-4306-b3bf-c7f88c492c3e)
 
+Проверить, что в логах нет такой ошибки!!!
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/504407f5-47c6-497b-84a1-b0ac6267ee19)
+
+
 ## Проверить доступность клиент-приложения на Svelte по 8000 порту
 Убедиться, что все работает стабильно, можно по тому что в консоли разработчика ошибок не будет и есть возможность добавлять/удалять/просматривать машины на клиенте.
 ![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/8eacbed3-f4e3-4bf4-8313-b2f625b92fca)
