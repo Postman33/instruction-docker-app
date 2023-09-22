@@ -39,6 +39,11 @@ docker-compose pull
 ![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/13a16243-13ed-4306-b3bf-c7f88c492c3e)
 
 ## Проверить доступность клиент-приложения на Svelte по 8000 порту
+Убедиться, что все работает стабильно, можно по тому что в консоли разработчика ошибок не будет и есть возможность добавлять/удалять/просматривать машины на клиенте.
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/8eacbed3-f4e3-4bf4-8313-b2f625b92fca)
+![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/60adbca6-a1f0-48ab-8b7d-378f6c3fa1f4)
+
+
 Проверялось по URL: http://localhost:8000/
 ![image](https://github.com/Postman33/instruction-docker-app/assets/20001037/773a05ef-3d7e-4c55-99c2-a487f6a32347)
 
