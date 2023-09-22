@@ -1,0 +1,30 @@
+version: '3'
+services:
+  webstormprojects-client:
+    image: alexande33/nest.js-graphql-svelte:webstormprojects-client
+    ports:
+      - "8000:8000"
+    depends_on:
+      - webstormprojects-server
+
+  webstormprojects-server:
+    image: alexande33/nest.js-graphql-svelte:webstormprojects-server
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: examplepassword
+      DB_DATABASE: exampledb
+    depends_on:
+      - db
+
+  db:
+    image: alexande33/nest.js-graphql-svelte:postgres-13
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: exampledb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: examplepassword
